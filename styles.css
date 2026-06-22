@@ -1,0 +1,311 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Roboto", sans-serif;
+      background-color: #f8fafc;
+      color: #0b1a2e;
+      line-height: 1.6;
+      padding: 2rem 1rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+  
+    .Header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      background-color:#AEC6CF;
+
+      color: #ffffff;
+      padding: 1.5rem 2rem;
+      border-radius: 10px;
+      margin-bottom: 2.5rem;
+      box-shadow: 0 10px 25px rgba(11, 26, 46, 0.15);
+    }
+
+    .Name {
+      font-size: 1.8rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+
+    .course {
+      font-size: 1rem;
+      font-weight: 300;
+      opacity: 0.85;
+      margin-top: 0.2rem;
+    }
+
+    .Menu {
+      display: flex;
+      gap: 2rem;
+      font-weight: 500;
+      font-size: 1rem;
+    }
+    a {
+      text-decoration: none;
+    }
+    .Menu a {
+      color: #ffffff;
+      cursor: pointer;
+      transition: color 0.2s, transform 0.2s;
+      padding: 0.3rem 0;
+      border-bottom: 2px solid transparent;
+    }
+
+    .Menu a:hover {
+      color: #aad0ff;
+      border-bottom-color: #aad0ff;
+      transform: translateY(-2px);
+    }
+
+
+    .Home {
+      background: #ffffff;
+      padding: 2rem 2.5rem;
+      border-radius: 20px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
+      margin-bottom: 2.5rem;
+      border-left: 6px solid #AEC6CF;
+    }
+
+    .Home p {
+      font-size: 1.1rem;
+      color: #1e2f3e;
+      margin-bottom: 1.8rem;
+      max-width: 800px;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .Projecto,
+    .CV {
+      padding: 0.7rem 2rem;
+      border-radius: 40px;
+      font-size: 1rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background 0.25s, transform 0.15s;
+      box-shadow: 0 4px 8px rgba(11, 26, 46, 0.1);
+    }
+    .Projecto{
+      background: #B4C4D4;
+      color: #fff;
+      border: none;      
+    }
+
+    .Projeto:hover {
+      background: #B0E0E6;
+      transform: scale(1.03);
+    }
+
+    .CV {
+      background: #ffffff;
+      color: #0b1a2e;
+      border-color:#B4C4D4;
+      border-width: 3px;
+      border-style: solid;
+    }
+
+    .CV:hover {
+      background: #B4C4D4;
+      transform: scale(1.03);
+    }
+
+
+    .Sobre {
+      padding: 2rem 2.5rem;
+      border-radius: 20px;
+      margin-bottom: 3.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: left;
+    }
+
+    .Sobre div:first-child p {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: #5757a5;
+      text-align: center;
+    }
+    .Linguagens-text{
+      color : #5757a5;
+      font-size: 1.4 rem;
+      margin-bottom: 8px;
+    }
+    .Habilidades li {
+      padding-left: 15px;
+      margin-left: 20px;
+    }
+    .Habilidades li:hover {
+      color: #AEC6CF;
+      border-bottom-color: #aad0ff;
+      transform: translateY(-2px);
+    }
+
+    .Habilidades {
+      display: flex;
+      flex-direction: row;
+      border:none;
+      justify-content: space-around;
+      font-weight: 600;
+      color: #1a2f44;
+      font-size: 1rem;
+      letter-spacing: 0.3px;
+    }
+
+
+    .projectos {
+      background-color: #C9D6DF;
+      padding: 2rem 2.5rem;
+      border-radius: 20px;
+      margin-bottom: 2.5rem;
+      font-size: 1.8rem;
+      font-weight: 600;
+      letter-spacing: -0.5px;
+      box-shadow: 0 8px 22px rgba(11, 26, 46, 0.2);
+    }
+    .view{
+      color: white;
+    }
+    .view:hover {
+      color: #aad0ff;
+      border-bottom-color: #aad0ff;
+      transform: translateY(-2px);
+    }
+    .Projectos-Display{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .Projectos-Display div{
+      font-size: 0.9rem;
+      background:#81a8b6;
+      border-radius:15px;
+      padding-top: 20px;
+      color: white;
+      transition:0.3s;
+      border-color:#81a8b6;
+      border-radius: 20px;
+      border-style: solid;
+      border-width: 3px;
+      margin-top: 15px;
+      font-weight: 500;
+      width: 12.5rem;
+      height: 7.5rem;
+      text-align: center;
+    }
+    .Projectos-Display div:hover{
+    transform:translateY(-5px);
+    }
+
+    .Estudos {
+      padding: 2rem 2.5rem;
+      margin-bottom: 2.5rem;
+      border: none;
+    }
+    .formacao{
+      font-size: 1.5rem;
+      font-weight: 700;
+      color:  #5757a5;
+      margin-bottom: 15px;
+    }
+    .Estudos p{
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: #5f6c7a;
+    }
+
+
+    .Contacto {
+      padding: 2rem 2.5rem;
+      margin-bottom: 2.5rem;
+      text-align: center;
+    }
+
+    .Contacto p:first-child {
+      font-size: 1.4rem;
+      font-weight: 500;
+      color: #0b1a2e;
+    }
+    .github{
+      color: black;
+    }
+
+
+    .rigths {
+      text-align: center;
+      padding: 1.5rem 0 0.5rem;
+      font-size: 0.9rem;
+      color: #5f6c7a;
+      border-top: 1px solid #dce3eb;
+      margin-top: 0.5rem;
+      letter-spacing: 0.3px;
+    }
+
+
+    @media (max-width: 768px) {
+      .Header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.2rem;
+        padding: 1.5rem;
+      }
+
+      .Menu {
+        flex-wrap: wrap;
+        gap: 1rem 1.8rem;
+      }
+
+      .Home {
+        padding: 1.5rem;
+      }
+
+      .Sobre {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+      }
+
+      .projectos {
+        font-size: 1.4rem;
+        padding: 1.5rem;
+      }
+
+      .Estudos {
+        font-size: 1.3rem;
+        padding: 1.5rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      body {
+        padding: 1rem 0.8rem;
+      }
+
+      .info p:first-child {
+        font-size: 1.4rem;
+      }
+
+      .links button {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+      }
+
+      .Home p {
+        font-size: 1rem;
+      }
+    }
